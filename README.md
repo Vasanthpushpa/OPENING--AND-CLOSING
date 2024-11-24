@@ -45,14 +45,12 @@ plt.axis("off")
 ```
 ## Output:
 ### Display the input Image
-![image](https://github.com/Safeeq-Fazil/OPENING--AND-CLOSING/assets/118680361/0870b9e7-50dc-455c-8420-ab2f84a7ef6f)
+![image](https://github.com/user-attachments/assets/fb6f9b12-64d1-4a8c-b301-1cf988201b2e)
+
 
 
 ### Display the result of Opening
-![image](https://github.com/Safeeq-Fazil/OPENING--AND-CLOSING/assets/118680361/0e1083a2-6de2-49a5-a28c-c856ac65e315)
-
-### Display the result of Closing
-![image](https://github.com/Safeeq-Fazil/OPENING--AND-CLOSING/assets/118680361/e96558f2-17a9-4a3f-90fe-88c09be06f17)
+![image](https://github.com/user-attachments/assets/dff5457f-f14c-40ed-88a0-aa3145423f74)
 
 
 ## Result
