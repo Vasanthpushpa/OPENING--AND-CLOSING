@@ -24,7 +24,7 @@ import matplotlib.pyplot as plt
 ```python
 img1=np.zeros((100,400), dtype='uint8')
 font=cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(img1,'Datascientist',(5,70), font,2,(255),5,cv2.LINE_AA)
+cv2.putText(img1,'Vasanth',(5,70), font,2,(255),5,cv2.LINE_AA)
 ```
 # Create the structuring element
 ```python
@@ -38,11 +38,14 @@ plt.imshow(image1)
 plt.axis("off")
 ```
 # Use Closing Operation
-```python
+```python'
+closed_image = cv2.morphologyEx(image, cv2.MORPH_CLOSE, kernel)
 image2=cv2.morphologyEx(img1,cv2.MORPH_CLOSE,kernel)
 plt.imshow(image2)
 plt.axis("off")
 ```
+
+
 ## Output:
 ### Display the input Image
 ![image](https://github.com/user-attachments/assets/fb6f9b12-64d1-4a8c-b301-1cf988201b2e)
@@ -51,6 +54,10 @@ plt.axis("off")
 
 ### Display the result of Opening
 ![image](https://github.com/user-attachments/assets/dff5457f-f14c-40ed-88a0-aa3145423f74)
+
+### Display the result of Closing
+![image](https://github.com/user-attachments/assets/a5094774-ae16-466e-b322-b64c4b24befa)
+
 
 
 ## Result
